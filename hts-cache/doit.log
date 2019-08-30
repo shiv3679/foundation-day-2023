@@ -1,8 +1,0 @@
--%c50 -c80 -%k -%v -v -#p -%! -n -i -s0 -m -F "Mozilla/5.0 (X11;U; Linux i686; en-GB; rv:1.9.1) Gecko/20090624 Ubuntu/9.04 (jaunty) Firefox/3.5" -A100000000 -#L500000000 http://www.iisermohali.ac.in/web/foundation-day/index.html
-File generated automatically on Fri, 30 Aug 2019 20:26:00, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
