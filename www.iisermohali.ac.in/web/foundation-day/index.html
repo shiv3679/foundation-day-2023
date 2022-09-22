@@ -2,7 +2,9 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!-- [if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif] -->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 
 
@@ -12,12 +14,62 @@
 	<title>Home - Foundation day 2022</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link href="css/events/bootstrap.html" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/events/font-awesome.css" rel="stylesheet">
+	<link href="css/events/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="shortcut icon" href="flask.ico">
+
+	<link href='../../../fonts.googleapis.com/css5111.css?family=Source+Sans+Pro:400,700,300' rel='stylesheet'
+		type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/events/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/events/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/events/bootstrap2.0.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/events/superfish2.0.css">
+
+	<link rel="stylesheet" href="css/events/style2.0.css">
+	<!--  Copy ends-->
+	<!-- js -->
+	<script type="text/javascript" src="js/events/jquery-2.1.4.min.html"></script>
+	<!-- //js -->
+	<link href='../../../fonts.googleapis.com/css29bd.css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
+	<link
+		href='../../../fonts.googleapis.com/cssaa44.css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<link href="../../../fonts.googleapis.com/css757b.css?family=Oswald:300,400,700" rel="stylesheet">
+	<!-- Modernizr JS -->
+	<script src="js/events/modernizr-2.6.2.min.js"></script>
+	<!--For countdown-->
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/events/respond.min.js"></script>
+	<![endif]-->
+
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/events/move-top.html"></script>
+	<script type="text/javascript" src="js/events/easing.html"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+
+
 
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="flask.ico">
 
-	<link href='../../../fonts.googleapis.com/css5111.css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='../../../fonts.googleapis.com/css5111.css?family=Source+Sans+Pro:400,700,300' rel='stylesheet'
+		type='text/css'>
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -30,6 +82,27 @@
 
 	<link rel="stylesheet" href="css/style2.0.css">
 
+	<!-- Events css -->
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/events/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/events/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/events/bootstrap2.0.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/events/superfish2.0.css">
+
+	<link rel="stylesheet" href="css/events/style2.0.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/events/modernizr-2.6.2.min.js"></script>
+	<!--For countdown-->
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/events/respond.min.js"></script>
+	<![endif]-->
+
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -38,186 +111,505 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	</head>
-	<body>
-		<div id="fh5co-wrapper">
+</head>
+
+<body>
+	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
-		<div id="fh5co-header">
-			<header id="fh5co-header-section">
-				<div class="container">
-					<div class="nav-header">
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<div class="nav-header">
+							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 
-						<!-- START #fh5co-menu-wrap -->
-						<nav id="fh5co-menu-wrap" role="navigation">
-							<h1 id="fh5co-logo"><a href="index.html">IISER<span>Mohali</span></a></h1>
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="events.html">Events</a></li>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li><a href="coordinators.html">Co-ordinators</a></li>
-								<!-- <li><a href="students.html">Students</a></li> -->
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</nav>
+							<!-- START #fh5co-menu-wrap -->
+							<nav id="fh5co-menu-wrap" role="navigation">
+								<h1 id="fh5co-logo"><a href="index.html">IISER<span>Mohali</span></a></h1>
+								<ul class="sf-menu" id="fh5co-primary-menu">
+									<li class="active">
+										<a href="index.html">Home</a>
+									</li>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="schedule.html">Schedule</a></li>
+									<li><a href="coordinators.html">Co-ordinators</a></li>
+									<li><a href="gallery.html">Gallery</a></li>
+									<!-- <li><a href="students.html">Students</a></li> -->
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
-				</div>
-			</header>
+				</header>
 
-		</div>
+			</div>
 
 
-		<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/HomEdit.jpg);width: 100%;height: 100%;">
-				<div class="desc animate-box">
-					<img src = "images/headerW.png" style="width: 100%;height: 100%;">
-					<p style="font-size:30px"><b style="color: #fff">27 September 2022</b></p>
-					<span><a class="btn btn-primary" href="https://forms.gle/RXrTJknDYpxZ9rRo9" target="_blank" >Schools Register Here</a></span>
-					<!--<p id="demo" style="font-size:30px"></p>
+			<div class="fh5co-hero">
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"
+					style="background-image: url(images/HomEdit.jpg);width: 100%;height: 100%;">
+					<div class="desc animate-box">
+						<img src="images/headerW.png" style="width: 100%;height: 100%;">
+						<p style="font-size:30px"><b style="color: #fff">27 September 2022</b></p>
+						<span><a class="btn btn-primary" href="https://forms.gle/RXrTJknDYpxZ9rRo9"
+								target="_blank">Schools Register Here</a></span>
+						<!--<p id="demo" style="font-size:30px"></p>
 					<h1>
 						<marquee direction="left" scrollamount="12" bgcolor="white">
 							Registrations will be open soon!!!
 						</marquee>
 					</h1>-->
+					</div>
 				</div>
 			</div>
+			<!-- end:header-top -->
+			<div id="fh5co-work-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h3>Events</h3>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-8" style="cursor: pointer;">
+							<div class="fh5co-grid animate-box" style="background-image:  url(images/demos.jpg);">
+								<a class="image-popup text-center">
+									<div class="prod-title">
+										<h3>Science Demos</h3>
+										<span>Science as scientists do it</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4" style="cursor: pointer;">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/quiz.jpg);">
+								<a class="image-popup text-center">
+									<div class="prod-title">
+										<h3>Quiz</h3>
+										<span>Your way to intellectual glory</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4" style="cursor: pointer;">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/arts.jpg);">
+								<a class="image-popup text-center">
+									<div class="prod-title">
+										<h3>Arts Competion</h3>
+										<span>Sail through the world of colors</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-8" style="cursor: pointer;">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/periodic.jpg);">
+								<a class="image-popup text-center">
+									<div class="prod-title">
+										<h3>Hunt the block</h3>
+										<span>Unleash your inner Sherlock</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="projects" id="projects">
+					<div class="container">
+						<span class="about-top-w3"></span>
+						<h4 class="title-w3ls"></h4>
+						<div class="news-bottom">
+							<!-- Quiz -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox"><img src="images/chemistry.jpg" alt="waiting" /></a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Chemistry demonstrations</h4>
+									</a>
+									<p class="para-w3-agile">Do science classes seem boring, with little demonstration
+										of what all those big sentences mean? What if you could actually see chemistry,
+										the science of changing substances, with your own eyes? Curie Club, the
+										Chemistry Club of IISER Mohali, presents an experimental demonstration titled
+										"EXPERIMENTS WITHOUT EXPLOSIONS (!)", where we explain why colourful magic is
+										not something that can never be explained.
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+							<!-- Drama -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Wonders of Computer</h4>
+									</a>
+									<p class="para-w3-agile">
+										The flower you see has been generated using a few mathematical equation.
+										Want to see how equations can generate more such beautiful art? Or are you
+										interested in seeing computers generate music on their own or simulate the
+										flight of birds? Do you want to figure out how these devices can recognize your
+										face or how the camera app in your phone can sharpen and blur images with just
+										the touch of a button? Join us on the foundation day where we will take you on a
+										journey into the exciting world of computers.
+										<!--<b>2:00PM-2:45PM</b>-->
+									</p>
+								</div>
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/turing.png" alt="Computers" />
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<!-- Quiz -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox"><img src="images/quiz.jpg" alt="waiting" /></a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>The Foundation Day Science Quiz</h4>
+									</a>
+									<p class="para-w3-agile">An exciting and fun set of questions for school students!
+										Details will be announced soon.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+							<!-- Robo Demo -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Robotics Demonstrations</h4>
+									</a>
+									<p class="para-w3-agile">
+										Robotics is a fascinating field among techies. We can see robots everywhere from
+										factories to homes. Smartphone controlled robots, RF ID applications, Sensor
+										based automation and much more will be demonstrated.<br>
+
+									</p>
+								</div>
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/robotics.jpg" alt="roboDemo" />
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+							<!-- Astro Events -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/astro.gif" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Astronomy Demonstrations</h4>
+									</a>
+									<p class="para-w3-agile">
+										What do you think when you think stars? Little points of lights sprinkled across
+										the black canvas of the night sky? Turn the earth around by 180 degrees and you
+										have another star. Only that here, the picture is a little different. Regions of
+										dark brewing up on an ever changing bright surface. Wanna know more about
+										sunspots? Google it. Wanna see sunspots? Come visit us on the IISER-M foundation
+										day!
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+
+							<!-- HSS Demos-->
+							<!--<div class="news-one-wthree-agile">
+							<div class="col-md-6 news-right">
+								<a ><h4>Learning Science through Archaeology</h4></a>
+								<p class="para-w3-agile">
+									The Palaeo-Arch lab will display stone tools made by prehistoric human ancestors, rock art and associated fossils of various animals along with proto and historical period artefacts. These specimens will be supplemented by informative posters on related subjects.<br>
+									<b>9:30AM-1:00PM</b>
+								</p>
+							</div>
+							<div class="col-md-6 news-left">
+								<div class="biseller-column">
+									<a class="lightbox" >
+										<img src="images/hssDemo.jpg" alt=""/>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>-->
+
+							<!-- EES demos-->
+							<!--<div class="news-one-wthree-agile">
+							<div class="col-md-6 news-left">
+								<div class="biseller-column">
+									<a class="lightbox" >
+										<img src="images/eesDemo.jpg" alt=""/>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-6 news-right">
+							<a ><h4>EES Demonstrations</h4></a>
+								<p class="para-w3-agile">
+									1. Waste to Electricity and Winogradsky column - Utilization of electricity produced by growing microbes in a microbial fuel cell by utilizing wastewater/waste compounds.<br>
+									2. Identification of rocks and minerals based on their physical and chemical parameters.<br>
+									3. Comprehensive study of fossils to deduce evolutionary history of past life.<br>
+									<b>9:30AM-1:00PM</b>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>-->
+
+							<!-- MathCS demos -->
+							<!-- <div class="news-one-wthree-agile">
+							<div class="col-md-6 news-right">
+								<a ><h4>Mathematics</h4></a>
+								<p class="para-w3-agile">
+									It has been a long time since we have moved ahead from using a straightedge and a pair of compasses on a flat piece of paper. <br>
+									With the invention of the "magical" machine that we call computers, Mathematics and Computer Science have worked hand in hand to take each other to greater heights. We shall demonstrate the beauty and power of these two subjects, which help in setting up the toolbox for various other disciplines.<br>
+									From generating the fractals to the estimation of π, we hope that the demonstrations will grab your interest and motivate you to explore these fields in greater depth.<br>
+									<b>9:30AM-1:00PM</b>
+							</div>
+							<div class="col-md-6 news-left">
+								<div class="biseller-column">
+									<a class="lightbox" >
+										<img src="images/mathcsDemo.jpg" alt=""/>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div> -->
+
+							<!-- Bio demos-->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/bio.jpg" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>The Demonstrations of Life</h4>
+									</a>
+									<p class="para-w3-agile">
+										This tiny creature can see what humans cannot! You are unique in ways you have
+										never thought of! How does a spherical transparent ball of cells develop into
+										beautiful striped zebrafish? On this foundation day, we will uncover the Secrets
+										of Nature in front of you with answers to these and many other questions through
+										interactive experiments. Also, get to know what Science enthusiasts from IISERM
+										are innovating to compete with hundreds of teams worldwide in the biggest
+										Synthetic Biology event(iGEM)!
+
+									</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+
+							<!-- Physics Demos -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Physics Demonstrations</h4>
+									</a>
+									<p class="para-w3-agile">
+										On this foundation day, Phi@i, the physics club of IISER Mohali, takes you to a
+										world beyond the classroom. With engaging physics demonstrations that explain
+										the core science behind everyday phenomena, you will definitely find something
+										interesting irrespective of how old you are!
+
+								</div>
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/physics.png" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+
+							<!-- Literature -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/lit.jpg" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Literature</h4>
+									</a>
+									<p class="para-w3-agile">
+										Delve into the exciting world of words with us, where we take you on a journey
+										full of poetry, stories, crosswords, and you get a chance to showcase your
+										creativity.
+
+									</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+
+							<!-- Education -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Education club</h4>
+									</a>
+									<p class="para-w3-agile">
+										Do you believe everything you read in your textbooks? Do you ever question what
+										is done in class? It's said that "Science is a culture of doubt". Being a
+										research institute, doubting is our everyday job. Come join us in doubting
+										everything that you have been taught, where we will present you with
+										demonstrations that will make you question the world around you and also address
+										some commonly misunderstood concepts from your classrooms.
+
+								</div>
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/education.png" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+
+							<!-- Art -->
+							<div class="news-one-wthree-agile">
+								<div class="col-md-6 news-left">
+									<div class="biseller-column">
+										<a class="lightbox">
+											<img src="images/art.jpg" alt="" />
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 news-right">
+									<a>
+										<h4>Arts</h4>
+									</a>
+									<p class="para-w3-agile">
+										Workshop For Origami- Paper folding art, doesn't it sound fun? No tearing, no
+										pasting. Just folds which lead to different designs. Join us to learn more in
+										this interesting workshop. <br>Art Competition- Details will be announced soon
+
+									</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+
+
+						</div>
+					</div>
+
+				</div>
+				<!-- fh5co-work-section -->
+				<!-- <div id="fh5co-services-section" class="fh5co-section-gray">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+								<h3>Who are we?</h3>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row text-center">
+							<div class="col-md-4 col-sm-4">
+								<div class="services animate-box">
+									<span><i class="icon-compass"></i></span>
+									<h3>Vision</h3>
+									<p>Indian Institute of Science Education and Research Mohali envisions a new
+										generation of scientists dedicated to the pursuit of knowledge in frontier areas
+										of basic sciences.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="services animate-box">
+									<span><i class="icon-flag"></i></span>
+									<h3>Mission</h3>
+									<p>As a centre of academic excellence, IISER Mohali has as its mission the imparting
+										of quality science education and the inculcating of the spirit of research
+										through innovative teaching and research methodologies. </p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="services animate-box">
+									<span><i class="icon-trophy"></i></span>
+									<h3>Legacy</h3>
+									<p>Every year IISER Mohali celebrates its foundation day. We invite school kids from
+										around the city to explore the science. They get the opportunity to learn
+										science and have fun along the way.</p>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<!-- map -->
+					<section>
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<p></p>
+							<h3>Reach us</h3>
+						</div>
+						<div>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11542.853342996501!2d76.72328997322465!3d30.670270315302403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe955afa88bcf%3A0xab6356114a6f197f!2sIndian+Institute+of+Science+Education+and+Research+(IISER)+Mohali!5e0!3m2!1sen!2sin!4v1505928999048"
+								style="position: relative; width: 100%; height: 100%" allowfullscreen></iframe>
+						</div>
+					</section>
+
+					<!-- fh5co-blog-section -->
+
+
+
+				</div>
+				<!-- END fh5co-page -->
+
+			</div>
+			<!-- END fh5co-wrapper -->
+
+			<!-- jQuery -->
+
+
+			<script src="js/jquery.min.js"></script>
+			<!-- jQuery Easing -->
+			<script src="js/jquery.easing.1.3.js"></script>
+			<!-- Bootstrap -->
+			<script src="js/bootstrap.min.js"></script>
+			<!-- Waypoints -->
+			<script src="js/jquery.waypoints.min.js"></script>
+			<!-- Stellar -->
+			<script src="js/jquery.stellar.min.js"></script>
+			<!-- Superfish -->
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.js"></script>
+
+			<!-- Main JS (Do not remove) -->
+			<script src="js/main.js"></script>
 		</div>
-		<!-- end:header-top -->
-		<div id="fh5co-work-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Events</h3>
-						<p></p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-sm-8" onclick="location.href='events.html';" style="cursor: pointer;">
-						<div class="fh5co-grid animate-box" style="background-image:  url(images/demos.jpg);">
-							<a class="image-popup text-center">
-								<div class="prod-title">
-                                    <h3>Science Demos</h3>
-									<span>Science as scientists do it</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4" onclick="location.href='events.html';" style="cursor: pointer;">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/quiz.jpg);">
-							<a class="image-popup text-center">
-								<div class="prod-title">
-									<h3>Quizzes</h3>
-									<span>Your way to intellectual glory</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4" onclick="location.href='events.html';" style="cursor: pointer;">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/arts.jpg);">
-							<a class="image-popup text-center">
-								<div class="prod-title">
-                                    <h3>Arts events</h3>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-8 col-sm-8" onclick="location.href='events.html';" style="cursor: pointer;">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/periodic.jpg);">
-							<a class="image-popup text-center">
-								<div class="prod-title">
-									<h3>Hunt the block</h3>
-									<span>Unleash your inner Sherlock</span>
-								</div>
-							</a>
-						</div>
-					</div>-->
-				</div>
-			</div>
-			<h2 style="text-align: center;">And many more....</h2>
-		</div>
-		<!-- fh5co-work-section -->
-		<div id="fh5co-services-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Who are we?</h3>
-						<p></p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-compass"></i></span>
-							<h3>Vision</h3>
-							<p>Indian Institute of Science Education and Research Mohali envisions a new generation of scientists dedicated to the pursuit of knowledge in  frontier areas of basic sciences.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-flag"></i></span>
-							<h3>Mission</h3>
-							<p>As a centre of academic excellence, IISER Mohali has as its mission the imparting of quality science education and the inculcating of the spirit of research through innovative teaching and research methodologies. </p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-trophy"></i></span>
-							<h3>Legacy</h3>
-							<p>Every year IISER Mohali celebrates its foundation day. We invite school kids from around the city to explore the science. They get the opportunity to learn science and have fun along the way.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		<!-- map -->
-		<section>
-			<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Reach us</h3>
-						<p></p>
-			</div>
-		<div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11542.853342996501!2d76.72328997322465!3d30.670270315302403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe955afa88bcf%3A0xab6356114a6f197f!2sIndian+Institute+of+Science+Education+and+Research+(IISER)+Mohali!5e0!3m2!1sen!2sin!4v1505928999048" style="position: relative; width: 100%; height: 100%" allowfullscreen></iframe>
-		</div>
-		</section>
-
-		<!-- fh5co-blog-section -->
-
-
-
 	</div>
-	<!-- END fh5co-page -->
 
-	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
-
-
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Superfish -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
-
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
-
-	</body>
+</body>
 
 
 </html>
