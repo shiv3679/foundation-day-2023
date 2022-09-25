@@ -161,7 +161,7 @@ figure {
   }
 }
 .fh5co-cover .desc span {
-  display: block;
+  display: inline-block;
   margin-bottom: 30px;
   font-size: 28px;
   letter-spacing: 1px;
