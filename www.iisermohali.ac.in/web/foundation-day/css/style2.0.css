@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoona57c.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoona57c.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoona57c.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoona57c.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoona57c.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoona57c.html?srf3rx");
+  src: url("../fonts/icomoon/icomoona57c.html?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoona57c-2.html?srf3rx") format("truetype"), url("../fonts/icomoon/icomoona57c-3.html?srf3rx") format("woff"), url("../fonts/icomoon/icomoona57c-4.html?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -161,7 +161,7 @@ figure {
   }
 }
 .fh5co-cover .desc span {
-  display: inline-block;
+  display: block;
   margin-bottom: 30px;
   font-size: 28px;
   letter-spacing: 1px;
